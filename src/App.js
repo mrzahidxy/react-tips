@@ -2,12 +2,14 @@ import { useSearchParams } from "react-router-dom";
 import "./styles.css";
 
 const Laptops = [
-  { name: "HP ProBook", inStock: true },
-  { name: "ASUS VivoBook", inStock: false },
-  { name: "Dell Vostro", inStock: true },
-  { name: "Lenovo ThinkPad", inStock: false },
-  { name: "Acer TravelMate", inStock: true },
-  { name: "Walton Passion", inStock: false },
+  { name: "HP Laptop", inStock: true },
+  { name: "ASUS Laptop", inStock: false },
+  { name: "Dell Laptop", inStock: true },
+  { name: "Xiaomi Smartphone", inStock: false },
+  { name: "Samsung Smartphone", inStock: true },
+  { name: "Lenovo Laptop", inStock: false },
+  { name: "Acer Laptop", inStock: true },
+  { name: "Apple Smartphone", inStock: false },
 ];
 
 export default function App() {
